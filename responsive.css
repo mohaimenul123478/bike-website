@@ -1,0 +1,42 @@
+@media screen and (max-width: 1200px) {
+   .home_container{
+    flex-direction: column;
+   }
+
+   .home::after{
+    height: 100vh;
+    background-size: cover;
+   }
+
+   .home_left{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.home_p {
+  margin: 20px 0px;
+  width: 80%;
+}
+
+
+.home_right{
+  width: 100%;
+}
+
+.home_right img{
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 780px) {
+    .menu{
+      display: none;
+    } 
+
+    .hid{
+      display: block;
+    }
+    
+}

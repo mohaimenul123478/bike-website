@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Martel+Sans&family=Open+Sans:wght@300&display=swap');
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	/*font-family: 'Lato', sans-serif;*/
+}
+
+a{
+	text-decoration: none;
+}
+
+ul li{
+	list-style: none;
+}
+
+.nav{
+	padding: 20px 0px;
+}
+
+.mid{
+	width: 90%;
+	margin: 0px  auto;
+}
+
+.menu_container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.menu_container a{
+	font-weight: bold;
+	color: #000;
+	transition: .4s;
+}
+
+.menu_container a:hover{
+	color: #37B234;
+}
+
+.menu ul {
+   display: flex;
+}
+
+.menu ul li a {
+    margin: 0 10px;
+}
+
+.home{
+	position: relative;
+}
+
+
+.home::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    background-image: url(image/slide.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 120vh;
+    width: 100%;
+    z-index: -1;
+  }
+
+.home_container{
+	height: 100%;
+		display: flex;
+}
+
+.home_left{
+	width: 35%;
+	display: flex;
+	margin-top: 100px;
+}
+
+.left_content{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.home_right{
+	width: 65%;
+overflow: hidden;
+}
+
+.time_box{
+	display:flex;
+	margin-right: 20px;
+	justify-content: space-between;
+	border: 1px solid #fff;
+	padding: 30px 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.time h1{
+	font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+
+.time p{
+	color: #fff;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.home_left h1{
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+}
+
+
+.home_left p{
+	color: #fff;
+	font-size: 18px;
+}
+
+.btn_box{
+	display: flex;
+
+}
+
+.btn{
+	width: 150px;
+	height: 50px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: .4s;
+}
+
+
+.btn1{
+	background-color:#37B234 ;
+	color: #fff;
+	margin-right: 10px;
+
+}
+
+.btn2{
+	color: #37B234;
+}
+
+.btn1:hover{
+	cursor: pointer;
+	background-color:#fff ;
+	color: #37B234;
+}
+
+.btn2:hover{
+	cursor: pointer;
+	background-color: #37B234 ;
+	color:#fff;
+}
+
+.home_right img{
+	 animation: mymove 3s infinite;
+}
+
+.hid{
+	display: none;
+}
+
+
+
+@keyframes mymove {
+  0% {
+  	transform: translateX(0px);
+  }
+  50% {
+  	transform: translateX(60px);
+  }
+
+  100% {
+  	transform: translateX(0px);
+  }
+}
+
+/***********************************************/
+
+.mid2{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.Popular_bike{
+	margin-top: 50px;
+}
+
+
+.heding_text{
+	text-align: center;
+		font-size: 	40px;
+	font-weight: normal;
+	color: #37B234 ;
+}
+
+.off_container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.off{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px  30px;
+	background-color: #37B234;
+  border-radius: 10px;
+  position: relative;
+}
+
+.off  i{
+	color: #ccc;
+	margin: 0px 10px;
+}
+
+.off h4{
+	color:#fff ;
+}
+
+.off:after{
+	content: '';
+	 width: 120px;
+	 height: 2px;
+	 border: 2px solid #ccc;
+	 position: absolute;
+	 left: 80%;
+}
+
+.off:before{
+	content: '';
+	 width: 120px;
+	 height: 2px;
+	 border: 2px solid #ccc;
+	 position: absolute;
+	 right: 80%;
+}
+
+
+.bike_box{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+	grid-gap: 30px;
+	margin-top: 50px; 
+}
+
+.b_box{
+	border: 2px solid #e3e3e3;
+	padding: 30px;
+	background-color: #f9f9f9;
+	position: relative;
+}
+
+.images{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*position: relative;*/
+}
+
+
+
+.images label{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color:#37B234 ;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	color: #fff;
+
+}
+
+
+.images i{
+	position: absolute;
+	top: 10px;
+	right: 6px;
+	font-size: 30px;
+	color: #37B234;
+}
+
+
+.detels{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.detels h3{
+  font-size: 22px;
+ 
+}
+
+.detels p{
+	 margin: 6px 0px;
+	 font-size: 18px;
+}
+
+.detels h2{
+	color:#37B234 ;
+	font-size: 22px;
+}
+
+.detels del{
+	 font-size: 14px;
+	 color: gray;
+}
+
