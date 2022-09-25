@@ -197,6 +197,7 @@ overflow: hidden;
 
 .Popular_bike{
 	margin-top: 50px;
+	text-align: center;
 }
 
 
@@ -630,7 +631,7 @@ overflow: hidden;
 }
 
 
-.bike_container{
+.slaider1{
 	position: relative;
 }
 
@@ -659,3 +660,4 @@ overflow: hidden;
 	background: none;
 	color: #37B234;
 }
+
