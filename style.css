@@ -628,3 +628,34 @@ overflow: hidden;
 	background-color: red;
 	border-color: red;
 }
+
+
+.bike_container{
+	position: relative;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+	position: absolute;
+	top: 50%;
+	left: -30px;
+	font-size: 40px;
+	color: #37B234;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover{
+	background: none;
+	color: #37B234;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+	position: absolute;
+	top: 50%;
+	right: -30px;
+	font-size: 40px;
+	color: #37B234;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover{
+	background: none;
+	color: #37B234;
+}
